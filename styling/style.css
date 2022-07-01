@@ -1,0 +1,121 @@
+body
+{
+    margin: 0;
+    font-family: "Poppins",sans-serif;
+}
+.navbar
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1c1c1c;
+    color: white;
+}
+.options
+{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    margin-right: 97px;
+}
+.logo
+{
+    width: 58px;
+    height: 58px;
+    padding: 15px 30px;
+    margin-left: 101px;
+}
+.options li a{
+    text-decoration: none;
+    padding: 15px 25px;
+    color: white;
+    font-weight: bolder;
+}
+
+
+/* Styling main section */
+
+.container
+{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    background-color: #1c1c1c;
+    color: white;
+    height: 88vh;
+}
+.image
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image .my_img
+{
+    border-radius: 50%;
+}
+.about
+{
+    text-align: left;
+    box-sizing: content-box;
+    margin: auto;
+    font-size: 1.5rem;
+    line-height: 0.9;
+}
+.passion
+{
+    color: rgb(168, 175, 183);
+}
+.orange
+{
+    color: #ff5403;
+}
+a.orange
+{
+    text-decoration: none;
+}
+button
+{
+    padding: 17px 18px;
+    border-radius: 12px;
+    font-size: 0.9rem;
+    /* box-shadow: 5px 10px #ff5403; */
+    outline: 2px solid #ff5403;
+    margin: 15px 25px auto 2px;
+    cursor: pointer;
+}
+.btn-2
+{
+    background-color: #1c1c1c;
+    color: white;
+}
+.btn-2:hover
+{
+    background-color: #ff5403;
+}
+.btn-1
+{
+    background-color: #ff5403;
+    color: white;
+    border: none;
+}
+.follow
+{
+    font-size: 1rem;
+}
+.icons
+{
+
+    margin-left: 18px;
+}
+.icons i
+{
+    padding: 0 5px;
+    font-size: 1.5rem;
+}
+hr{
+    background: white;
+    margin: 0%;
+    padding: 0%;
+    border-style: solid;
+}
